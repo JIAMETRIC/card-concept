@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(246, 215, 232);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: rgb(180, 244, 242);
+    height: 60vh;
+    width: 20%;
+    overflow: auto;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+
+}
+
+.card__body {
+    background-color: #9c9c9c;
+    height: 30vh;
+    width: 90%;
+    overflow: auto;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card__image {
+    background-color: #9c9c9c;
+    height: 20vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.card__title {
+    background-color: rgb(246, 215, 232);
+    height: 5vh;
+    width: 80%;
+    margin-left: 25px;
+    margin-top: 12px;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 0.2rem;
+}
+
+.card__description {
+    background-color: rgb(246, 215, 232);
+    height: 12vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 17px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.card__btn {
+    background-color: rgb(246, 215, 232);
+    height: 5vh;
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 50px;
+    border: none;
+    
+}
